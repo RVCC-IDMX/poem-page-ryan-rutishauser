@@ -11,6 +11,10 @@
   --step-5: clamp(2.49rem, calc(1.39rem + 5.47vw), 6.87rem);
 }
 
+body{
+  background-color: black;
+}
+
 h1{
   font-size: var(--step-5);
 }
@@ -27,9 +31,18 @@ p{
 
 /* poem */
 #poem {
-    background-image: url("../img/butterfly.jpg");
-    background-position-x: center;
-    background-position-y: center;
+    background-image: url("../img/butterfly2.jpg");
+    background-position: center center;
     font-size: small;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: goldenrod;
+} 
+
+footer{
+  text-align: center;
+  color:white;
 }
