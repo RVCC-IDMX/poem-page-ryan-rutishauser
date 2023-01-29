@@ -40,6 +40,7 @@ p{
     color: black;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: goldenrod;
+    font-family: 'Pacifico', cursive;;
 } 
 
 footer{
